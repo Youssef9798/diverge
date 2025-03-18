@@ -1,0 +1,83 @@
+{
+  "links": {
+    "content": {
+      "index": "المحتوى",
+      "dashboard": "لوحة التحكم",
+      "users": "المستخدمون"
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "index": "لوحة التحكم"
+    },
+    "users": {
+      "index": "المستخدمون",
+      "show": "عرض تفاصيل {0}",
+      "create": "إنشاء مستخدم",
+      "table": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "dateJoined": "تاريخ الانضمام",
+        "role": "الدور",
+        "status": "الحالة",
+        "actions": "الإجراءات"
+      }
+    },
+    "login": {
+      "index": "تسجيل الدخول"
+    },
+    "notFound": {
+      "index": "خطأ 404"
+    },
+    "unAuth": {
+      "index": "خطأ 401"
+    }
+  },
+  "buttons": {
+    "previous": "السابق",
+    "next": "التالي",
+    "addUser": "إضافة مستخدم",
+    "signIn": "تسجيل الدخول",
+    "register": "التسجيل",
+    "goBack": "العودة",
+    "takeMeHome": "العودة إلى الصفحة الرئيسية",
+    "logout": "تسجيل الخروج",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "view": "عرض",
+    "clear": "مسح"
+  },
+  "keywords": {
+    "soon": "قريبًا"
+  },
+  "messages": {
+    "welcomeBack": "مرحبًا بعودتك",
+    "noDataAvailable": "لا توجد بيانات متاحة!",
+    "dontHaveAnAccount": "ليس لديك حساب؟",
+    "cantFindPage": "لا يمكننا العثور على هذه الصفحة",
+    "pageIsNotExist": "عذرًا، الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "youAreNotAllowed": "غير مسموح لك بدخول هذه الصفحة",
+    "pageRequiresAccess": "عذرًا، الصفحة التي تبحث عنها تتطلب صلاحيات وصول."
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "هذا البريد الإلكتروني غير صالح",
+    "minLength": "يجب أن تكون كلمة المرور {length} أحرف أو أكثر"
+  },
+  "inputs": {
+    "search": "بحث",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "userName": "اسم المستخدم",
+    "role": "الدور",
+    "status": "الحالة"
+  },
+  "modals": {
+    "deleteUser": {
+      "index": "حذف المستخدم",
+      "message": "هل أنت متأكد من حذف المستخدم برقم {0}؟"
+    }
+  }
+}
