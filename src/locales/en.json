@@ -1,0 +1,83 @@
+{
+  "links": {
+    "content": {
+      "index": "Content",
+      "dashboard": "Dashboard",
+      "users": "Users"
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "index": "Dashboard"
+    },
+    "users": {
+      "index": "Users",
+      "show": "Show {0} Details",
+      "create": "Create User",
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "dateJoined": "Date Joined",
+        "role": "Role",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "login": {
+      "index": "Login"
+    },
+    "notFound": {
+      "index": "404 Error"
+    },
+    "unAuth": {
+      "index": "401 Error"
+    }
+  },
+  "buttons": {
+    "previous": "Previous",
+    "next": "Next",
+    "addUser": "Add User",
+    "signIn": "Sign In",
+    "register": "Register",
+    "goBack": "Go Back",
+    "takeMeHome": "Take Me Home",
+    "logout": "Logout",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "view": "View",
+    "clear": "Clear"
+  },
+  "keywords": {
+    "soon": "Soon"
+  },
+  "messages": {
+    "welcomeBack": "Welcome Back",
+    "noDataAvailable": "No Data Available!",
+    "dontHaveAnAccount": "Don't have an account?",
+    "cantFindPage": "We can’t find that page",
+    "pageIsNotExist": "Sorry, the page you are looking for doesn't exist or has been moved.",
+    "youAreNotAllowed": "You are not allowed to enter this page",
+    "pageRequiresAccess": "Sorry, the page you are looking for requires access."
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "This email is invalid",
+    "minLength": "Password must be equal or more than {length} characters"
+  },
+  "inputs": {
+    "search": "Search",
+    "email": "Email",
+    "password": "Password",
+    "userName": "Username",
+    "role": "Role",
+    "status": "Status"
+  },
+  "modals": {
+    "deleteUser": {
+      "index": "Delete User",
+      "message": "Are sure to delete user with id {0} ?"
+    }
+  }
+}
