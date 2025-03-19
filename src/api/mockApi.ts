@@ -107,6 +107,9 @@ export const mockApi = {
         Array.from(filterParams.entries()).every(([key, value]) => {
           const userValue = user[key as keyof User]
           if (typeof userValue === 'string') {
+            if (key === 'status') {
+              return userValue.toLowerCase() === value.toLowerCase()
+            }
             return userValue.toLowerCase().includes(value.toLowerCase())
           } else {
             return userValue === (value as unknown)
