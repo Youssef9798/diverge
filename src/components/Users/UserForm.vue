@@ -31,7 +31,7 @@ const { t } = useI18n();
 
 const rules = computed(() => {
 
-  if (!useHasPermission('change_password')) {
+  if (!useHasPermission('change_password') || props.profileMode) {
     return {
       name: { required },
       email: { required, email },
