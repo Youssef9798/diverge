@@ -68,6 +68,7 @@
   },
   "inputs": {
     "search": "Search",
+    "searchPlaceholder": "Press CTRL + K to start searching",
     "email": "Email",
     "password": "Password",
     "userName": "Username",

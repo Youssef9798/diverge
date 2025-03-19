@@ -68,6 +68,7 @@
   },
   "inputs": {
     "search": "بحث",
+    "searchPlaceholder": "اضغط على CTRL + K لبدء البحث",
     "email": "البريد الإلكتروني",
     "password": "كلمة المرور",
     "userName": "اسم المستخدم",
